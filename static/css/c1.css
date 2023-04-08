@@ -1,0 +1,24 @@
+.th1{
+    background-color: bisque;
+}
+.th1:hover{background-color:lightgreen;}
+.th1:hover{color: ghostwhite;}
+.td1{
+    background-color: aquamarine;
+}
+.td1:hover{background-color: antiquewhite;}
+.td2{
+    background-color: rgb(65, 249, 249);
+}
+.td2:hover{background-color:rebeccapurple;}
+.td3{
+    background-color: cadetblue;
+}
+.td3:hover{background-color: rgb(77, 77, 243);}
+
+table{
+    width: 25vw;
+}
+td{
+    text-align: center;
+}

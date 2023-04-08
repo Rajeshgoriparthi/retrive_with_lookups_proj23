@@ -1,0 +1,42 @@
+table{
+    width: 50vw;
+    text-align: center;
+}
+td:hover{color: ghostwhite;}
+#th1{
+    background-color: antiquewhite;
+}
+#th1:hover{background-color: aqua;}
+#th1:hover{color:red;}
+#td1{
+    background-color: lightgreen;
+}
+#td1:hover{background-color:lightpink;}
+#td2{
+    background-color:blue;
+}
+#td2:hover{background-color:lawngreen;}
+#td3{
+    background-color: blueviolet;
+}
+#td3:hover{background-color:gray;}
+#td4{
+    background-color: green;
+}
+#td4:hover{background-color:lightskyblue;}
+#td5{
+    background-color: red;
+}
+#td5:hover{background-color:yellow;}
+#td6{
+    background-color: palevioletred;
+}
+#td6:hover{background-color:purple;}
+#td7{
+    background-color: peru;
+}
+#td7:hover{background-color:grey;}
+#td8{
+    background-color: orangered;
+}
+#td8:hover{background-color:saddlebrown;}

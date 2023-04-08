@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+</head>
+<body>
+    <table border="2px">
+        <tr id="th1">
+            <th>Emp no</th>
+            <th>Emp name</th>
+            <th>Job</th>
+            <th>Mgr</th>
+            <th>Hire date</th>
+            <th>Sal</th>
+            <th>Comm</th>
+            <th>Dept no</th>
+        </tr>
+    {% for a in edata %}
+        <tr>
+            <td id="td1">{{ a.emp_no}}</td>
+            <td id="td2">{{ a.e_name}}</td>
+            <td id="td3">{{ a.job}}</td>
+            <td id="td4">{{ a.mgr}}</td>
+            <td id="td5">{{ a.hirdate}}</td>
+            <td id="td6">{{ a.sal}}</td>
+            <td id="td7">{{ a.comm}}</td>
+            <td id="td8">{{ a.dept_no.dept_no}}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>

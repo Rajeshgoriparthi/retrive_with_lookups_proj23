@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <table border="2px">
+        <tr class="th1">
+            <th>dept_no</th>
+            <th>d_name</th>
+            <th>Loc</th>
+        </tr>
+    {% for a in ddata %}
+        <tr>
+            <td class="td1">{{a.dept_no}}</td>
+            <td class="td2">{{a.d_name}}</td>
+            <td class="td3">{{a.loc}}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>
